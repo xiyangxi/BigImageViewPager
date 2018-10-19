@@ -1,23 +1,22 @@
 ### BigImage + ImageView + ViewPager = BigImageViewPager
 一个图片浏览器，支持超大图、超长图、支持手势放大、支持查看原图、下载、加载百分比进度显示。采用区块复用加载，优化内存占用，有效避免OOM。
 
+# 更新日志
+- v0.0.5新增：可设置缩放比例、缩放动画时间。
+- v1.2.0新增：可设置多种加载策略（仅普清、仅原图、手动模式、网络自适应）
+- v1.2.1修复可能与app冲突的部分
+- v1.2.2新增：长图（宽高比大于等于3的图）默认宽度放大到手机屏幕的宽度
+- v1.2.3优化内存泄漏问题，优化查看原图时更新闪烁问题，简单优化进场退场动画
+- v1.2.5新增：是否显示关闭页面按钮，21以上透明化状态栏
+- v1.2.6新增：可选择 点击关闭、上拉/下拉关闭
+
 # 截图
 
 # gif查看不流畅，可扫描底部二维码进行安装体验
-![v1.2.6新增可下拉/上拉关闭](https://upload-images.jianshu.io/upload_images/1710902-053efdeaebd4f91d.gif?imageMogr2/auto-orient/strip)
+![v1.2.6新增可下拉/上拉关闭](https://upload-images.jianshu.io/upload_images/1710902-08b5d2e3e9696f9f.gif?imageMogr2/auto-orient/strip)
 
-![Screenshot_2018-10-19-16-36-40-375.png](https://upload-images.jianshu.io/upload_images/1710902-d94610737445a4e2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![Screenshot_2018-10-19-16-36-43-337.png](https://upload-images.jianshu.io/upload_images/1710902-9fc595044d2ad332.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-![Gif](https://upload-images.jianshu.io/upload_images/1710902-3d57165ed0785475.gif)
-
-![v1.2.0增加多种加载策略设置](https://upload-images.jianshu.io/upload_images/1710902-0a66fe87b5b8e20b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-![截图1.jpg](https://upload-images.jianshu.io/upload_images/1710902-11827e4c9c08fc86.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-![截图2.jpg](https://upload-images.jianshu.io/upload_images/1710902-213bed170b37f027.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
+![Screenshot_2018-10-19-18-01-52-162副本.jpg](https://upload-images.jianshu.io/upload_images/1710902-84fb4fb928a5001d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 # 功能
